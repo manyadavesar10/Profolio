@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #0d6efd;
+    --bg-light: #f8f9fa;
+    --bg-dark: #212529;
+    --text-light: #f8f9fa;
+    --text-dark: #212529;
+  }
+
+  body {
+    scroll-behavior: smooth;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .dark-mode {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+  }
+
+  .navbar, .footer {
+    background-color: var(--primary-color);
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .rounded-circle{
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #0d6efd;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .skills i {
+    font-size: 2rem;
+    margin: 0.5rem;
+  }
+
+  .project-card img {
+    transition: transform 0.3s ease;
+  }
+
+  .project-card img:hover {
+    transform: scale(1.05);
+  }
+
+  .carousel-item blockquote {
+    font-size: 1.1rem;
+  }
+
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 14px;
+    display: none;
+    cursor: pointer;
+  }
