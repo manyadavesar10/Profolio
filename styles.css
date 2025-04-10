@@ -15,6 +15,10 @@
     background-color: var(--bg-dark);
     color: var(--text-light);
   }
+  
+  #home{
+    height: 100vh;
+  }
 
   .navbar, .footer {
     background-color: var(--primary-color);
